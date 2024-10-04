@@ -11,8 +11,8 @@ import org.springframework.stereotype.Service;
 public class ITipoPagoServiceImpl extends GenericServiceImpl<TipoPago, TipoPagoDAO, Integer> implements ITipoPagoService {
 
     @Override
-    public TipoPago save(TipoPago alumno) {
+    public TipoPago save(TipoPago e) {
 
-        return super.save(alumno);
+        return super.save(e);
     }
 }
