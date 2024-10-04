@@ -33,8 +33,8 @@ public class GenericServiceImpl<E extends GenericEntity<Key>, R extends JpaRepos
 
     @Override
     @Transactional
-    public E save(E alumno) {
-        return dao.save(alumno);
+    public E save(E e) {
+        return dao.save(e);
     }
 
     @Override
